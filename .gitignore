@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+
+# Streamlit specific
+.streamlit/config.toml
+
+# Jupyter and others
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
