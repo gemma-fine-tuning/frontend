@@ -11,14 +11,16 @@ This is the Streamlit frontend for the Gemma Fine-Tuning Platform. It provides a
 
 ## Installation
 
+> Please note that though the commands given use `uv`, it's because we use `uv` to develop the application. You can use equivalent `pip` commands and the project will work just fine.
+
 ```bash
-pip install -r requirements.txt
+uv venv
 ```
 
 ## Running the App
 
 ```bash
-streamlit run main.py
+uv run streamlit run main.py
 ```
 
 ## Deployment
